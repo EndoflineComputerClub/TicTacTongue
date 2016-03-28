@@ -174,7 +174,7 @@ def zeros_lost(Grid):
     else:
         return False
 
-def ttp_lost(Grid):
+def ttf_lost(Grid):
     """This function will return True if we have lost the game."""
     i = 0
     while (i < 3):
@@ -192,7 +192,7 @@ def ttp_lost(Grid):
 
 def draw(Grid):
     """This function returns a draw if the game ends in a draw."""
-    if (ttp_lost(Grid) or zeros_lost(Grid)):
+    if (ttf_lost(Grid) or zeros_lost(Grid)):
         return False
     for i in range(3):
         for j in range(3):
@@ -202,4 +202,4 @@ def draw(Grid):
 
 def game_end(Grid):
     """ This function returns True if the game has ended """
-    return (draw(Grid) or zeros_lost(Grid) or ttp_lost(Grid))
+    return (draw(Grid) or zeros_lost(Grid) or ttf_lost(Grid))

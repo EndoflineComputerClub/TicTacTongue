@@ -1,7 +1,7 @@
 gt-draft.txt
-main.aux
-main.log
-main.pdf
-main.synctex.gz
+Document/main.aux
+Document/main.log
+Document/main.pdf
+Document/main.synctex.gz
 ExtendedAPI.pyc
 Gamestate.pyc
