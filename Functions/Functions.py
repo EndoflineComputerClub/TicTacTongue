@@ -26,7 +26,7 @@ Reading code can be a little dry - but don't give up! Read this file, please.
 # write the 10 lines once, and CALL the function of those 10 lines everywhere.
 
 # Calling a function takes only one line, so, if you needed that code in 20 
-# places, instead of 200 lines, you use only 21. This makes reading and 
+# places, instead of 200 lines, you use only 30. This makes reading and 
 # maintaining code much easier and better.  
 
 
